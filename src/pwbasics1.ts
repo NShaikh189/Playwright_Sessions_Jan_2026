@@ -1,6 +1,6 @@
 //IIFE function: config file is not applicable
 
-import { chromium, Browser, Page } from "playwright";
+import { chromium, Browser, Page, Locator } from "playwright";
 
 (async ()=>{
 //console.log("Hello World");
@@ -15,5 +15,7 @@ await page.goto("https://www.flipkart.com");
 
 let title:string = await page.title();
 let url: string = page.url();
+
+
 //browser.close();
 })();
