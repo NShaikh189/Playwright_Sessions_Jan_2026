@@ -49,14 +49,20 @@ let num =100;
 //console.log(bill);
 
 let numarr = [10,20,30,40];
-
-let cnt = 0;
-let len = numarr.length-1;
 for(let k of numarr)
 {
-    console.log(numarr[len-cnt]);
-    cnt++;
+    let cnt = numarr.length - numarr.indexOf(k)-1;
+    console.log(numarr[cnt]);
+    cnt--;
 }
+let cnt = 0;
+let len = numarr.length-1;
+// for(let k of numarr)
+// {
+//     console.log(numarr[len-cnt]);
+//     cnt++;
+// }
+
 
 for(let q in numarr)
 {
