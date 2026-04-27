@@ -1,0 +1,10 @@
+--page.locator() - Used for DOM based locators
+Xpath/css
+
+getByRole()
+getByPlaceholder()
+getByAltText()
+getByTestId()
+getByLabel()
+getByTitle()
+getByText()
